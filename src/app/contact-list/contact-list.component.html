@@ -1,0 +1,8 @@
+
+<ul class="list-group">
+    <input #search  (keyup)="0" placeholder="Search name....">
+  <li class="list-group-item list-group-item-action" (click)="onSelect(contact)"
+  *ngFor="let contact of (contacts | searchFilter: search.value)"><a>Name: {{contact.name}} - Mobile: {{contact.mobile}}</a></li>
+</ul>
+
+

@@ -1,0 +1,19 @@
+<div>
+    <h2>Contact Details</h2>
+  <form>
+    <div class="form-group">
+      <input type="input" class="form-control" name="name" required placeholder="name"
+      [(ngModel)]="contact.name">
+    </div>
+    <div class="form-group">
+      <input type="input" class="form-control" name="address" required placeholder="address"
+      [(ngModel)]="contact.address">
+    </div>
+    <div class="form-group">
+      <input type="input" class="form-control" name="mobile" required placeholder="mobile"
+      [(ngModel)]="contact.mobile">
+    </div>
+    <button type="button" (click)="updateContact()" class="btn btn-brimary">Update</button>
+    <button type="button" (click)="deleteContact()" class="btn btn-danger">Delete</button>    
+  </form>
+</div>
