@@ -1,5 +1,12 @@
-# HttpApp
+# MEAN APP
 
+To run the application 
+in the root folder run
+`npm install`
+`ng build`
+`node server`
+
+open local host 3000
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
 
 ## Development server
